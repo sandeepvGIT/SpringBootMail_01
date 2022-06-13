@@ -1,0 +1,16 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    password: zunswfldvmpxdnon
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: false
+          connectiontimeout: 5000
+          starttls:
+            enable: true
+            required: true
+          timeout: 5000
+          writetimeout: 5000
+    username: sandeepv684@gmail.com
